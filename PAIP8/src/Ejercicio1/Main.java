@@ -1,15 +1,15 @@
 /**
  * PRACTICA 8: Ejercicio 1
  * 
- * Este ejercicio nos pide construir una clase que muestre una función cuadrática.
+ * Este ejercicio nos pide construir una clase que muestre una funciï¿½n cuadrï¿½tica.
  * 
- * Pasamos como parametros la constante y el multiplicador de la función cuadrática
+ * Pasamos como parametros la constante y el multiplicador de la funciï¿½n cuadrï¿½tica
  * 
  * mx^2 +c
  * 
  * @author alu0100888102
  * @version 1.0
- * Ángel Hamilton Lopez
+ * ï¿½ngel Hamilton Lopez
  * alu0100888102@ull.es
  */
 
@@ -19,7 +19,7 @@ public class Main {
 	public static void main(String[] args) {
 	    Cuadratica frame = new Cuadratica(Integer.parseInt(args[0]),Double.parseDouble(args[1]));
 	    frame.setLocationRelativeTo(null); // Center the frame
-	    frame.setSize(750, 750);
+	    frame.setSize(250, 250);
 	    frame.setVisible(true);
 	  }
 }

@@ -1,11 +1,11 @@
 /**
  * PRACTICA 8: Ejercicio 2
  * 
- * Este ejercicio nos pide construir una clase abstracta capaz de representar cualquier función.
+ * Este ejercicio nos pide construir una clase abstracta capaz de representar cualquier funciï¿½n.
  * 
  * @author alu0100888102
  * @version 1.0
- * Ángel Hamilton Lopez
+ * ï¿½ngel Hamilton Lopez
  * alu0100888102@ull.es
  */
 
@@ -16,11 +16,11 @@ import javax.swing.*;
 
 public abstract class FuncionAbstracta extends JPanel {
 	/**estas constantes nos permiten colcar los ejes dentro del panel*/
-	static final int A_EJE_Y = 500;
-	static final int A_EJE_X = 500;
-	static final int LEFT = -500;
-	static final int RIGHT = 500;
-	/**El poligono guarda la función*/
+	static final int A_EJE_Y = 250;
+	static final int A_EJE_X = 250;
+	static final int LEFT = -250;
+	static final int RIGHT = 250;
+	/**El poligono guarda la funciï¿½n*/
 	private Polygon pol = new Polygon();
 	
 	/** Getters y setters*/
@@ -34,7 +34,7 @@ public abstract class FuncionAbstracta extends JPanel {
 	/** Constructor */
 	protected FuncionAbstracta(){}
 	
-	/** Construye F(x) en el polígono */
+	/** Construye F(x) en el polï¿½gono */
 	public void dibujaFuncion(){
 		for(int x = LEFT; x <= RIGHT ; x++)
 			getPol().addPoint(x + A_EJE_Y, A_EJE_X - (int)(f(x)));

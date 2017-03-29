@@ -5,7 +5,7 @@
  * 
  * @author alu0100888102
  * @version 1.0
- * Ángel Hamilton Lopez
+ * ï¿½ngel Hamilton Lopez
  * alu0100888102@ull.es
  */
 
@@ -15,7 +15,7 @@ public class Main {
 	public static void main(String[] args) {
 	    EscaleraFrame frame = new EscaleraFrame(Integer.parseInt(args[0]), Integer.parseInt(args[1]));
 	    frame.setLocationRelativeTo(null); // Center the frame
-	    frame.setSize(550, 550);
+	    frame.setSize(250, 250);
 	    frame.setVisible(true);
 	  }
 }
